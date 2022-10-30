@@ -17,6 +17,7 @@ public class Game
 		init();
 	}
 	
+	//comment
 	public void entitySpawn(Character entity) {
 		Random rand = new Random();
 		entity.setPosX( rand.nextInt(grid.length) );
